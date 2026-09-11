@@ -34,9 +34,34 @@ if (viewport && 'IntersectionObserver' in window) {
   cards.forEach((card) => observer.observe(card));
 }
 
-document.querySelector('.registration-form')?.addEventListener('submit', (event) => {
+document.querySelector('.registration-form')?.addEventListener('submit', async (event) => {
   event.preventDefault();
   if (!event.currentTarget.reportValidity()) return;
+
+  const form = event.currentTarget;
+  const formData = new FormData(form);
+  const eventId = window.crypto?.randomUUID?.() || `lead-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+
+  if (typeof window.fbq === 'function') {
+    window.fbq('track', 'Lead', {}, { eventID: eventId });
+  }
+
+  try {
+    await fetch('/api/meta-conversion', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      keepalive: true,
+      body: JSON.stringify({
+        eventId,
+        parentName: formData.get('parentName'),
+        phone: formData.get('phone'),
+        eventSourceUrl: window.location.href,
+      }),
+    });
+  } catch (error) {
+    console.warn('Không thể gửi sự kiện Conversions API.', error);
+  }
+
   const button = event.currentTarget.querySelector('button');
   button.textContent = 'ĐÃ GỬI THÔNG TIN';
   button.disabled = true;
