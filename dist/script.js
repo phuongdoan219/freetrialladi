@@ -9,7 +9,9 @@ function setActiveDot(index) {
 dots.forEach((dot) => {
   dot.addEventListener('click', () => {
     const index = Number(dot.dataset.target);
-    cards[index]?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+    if (viewport && cards[index]) {
+      viewport.scrollTo({ left: cards[index].offsetLeft, behavior: 'smooth' });
+    }
     setActiveDot(index);
   });
 });
