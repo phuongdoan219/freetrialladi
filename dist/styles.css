@@ -612,6 +612,100 @@ input:focus, textarea:focus {
 .footer p span { margin: 0 5px; color: var(--orange); }
 .legal { color: #71849b !important; }
 
+.success-dialog {
+  width: min(calc(100% - 36px), 350px);
+  padding: 0;
+  border: 0;
+  border-radius: 24px;
+  overflow: visible;
+  color: var(--text);
+  background: transparent;
+  box-shadow: 0 24px 65px rgba(6, 51, 109, .22);
+}
+.success-dialog::backdrop {
+  background: rgba(8, 35, 69, .48);
+  backdrop-filter: blur(3px);
+}
+.success-dialog__content {
+  position: relative;
+  padding: 42px 24px 24px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: linear-gradient(180deg, #fff 0%, #fffaf2 100%);
+  text-align: center;
+}
+.success-dialog__icon {
+  position: absolute;
+  top: -31px;
+  left: 50%;
+  width: 62px;
+  height: 62px;
+  border: 5px solid white;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: white;
+  background: linear-gradient(140deg, var(--orange-2), var(--orange));
+  box-shadow: 0 8px 20px rgba(255, 118, 0, .3);
+  transform: translateX(-50%);
+}
+.success-dialog__icon svg {
+  width: 32px;
+  height: 32px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.success-dialog__eyebrow {
+  margin: 0 0 7px;
+  color: var(--orange);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+.success-dialog h2 {
+  margin: 0 0 12px;
+  font-size: 23px;
+  line-height: 1.22;
+}
+.success-dialog h2::after { display: none; }
+.success-dialog p:last-of-type {
+  margin: 0 auto 21px;
+  max-width: 285px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.62;
+}
+.success-dialog__button {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 999px;
+  color: white;
+  background: linear-gradient(100deg, #ff8d00, #ff6500);
+  box-shadow: 0 7px 16px rgba(255, 103, 0, .22);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.success-dialog__button:hover,
+.success-dialog__button:focus-visible {
+  background: #ed6800;
+  outline: 3px solid rgba(255, 118, 0, .18);
+  outline-offset: 3px;
+}
+.success-dialog[open] {
+  animation: dialog-in .24s ease-out both;
+}
+@keyframes dialog-in {
+  from { opacity: 0; transform: translateY(12px) scale(.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
 .will-reveal {
   opacity: 0;
   transform: translateY(18px);

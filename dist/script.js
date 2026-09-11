@@ -3,7 +3,18 @@ const cards = [...document.querySelectorAll('.expert-card')];
 const dots = [...document.querySelectorAll('.carousel-dots button')];
 const previousButton = document.querySelector('.carousel-prev');
 const nextButton = document.querySelector('.carousel-next');
+const successDialog = document.querySelector('#success-dialog');
+const closeSuccessButton = document.querySelector('[data-close-success]');
 let currentSlide = 0;
+
+function closeSuccessDialog() {
+  successDialog?.close();
+}
+
+closeSuccessButton?.addEventListener('click', closeSuccessDialog);
+successDialog?.addEventListener('click', (event) => {
+  if (event.target === successDialog) closeSuccessDialog();
+});
 
 function setActiveDot(index) {
   currentSlide = index;
@@ -87,8 +98,15 @@ document.querySelector('.registration-form')?.addEventListener('submit', async (
       }),
     }).catch((error) => console.warn('Không thể gửi sự kiện Conversions API.', error));
 
-    button.textContent = 'ĐÃ GỬI THÔNG TIN';
     form.reset();
+    button.innerHTML = originalButtonContent;
+    button.disabled = false;
+
+    if (successDialog?.showModal) {
+      successDialog.showModal();
+    } else {
+      window.alert('Đăng ký thành công! TeenCare sẽ sớm liên hệ với ba mẹ để trao đổi và đặt lịch tư vấn 1:1 phù hợp.');
+    }
   } catch (error) {
     console.error('Không thể lưu thông tin đăng ký.', error);
     button.innerHTML = originalButtonContent;
