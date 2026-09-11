@@ -40,14 +40,42 @@ document.querySelector('.registration-form')?.addEventListener('submit', async (
 
   const form = event.currentTarget;
   const formData = new FormData(form);
+  const button = form.querySelector('button[type="submit"]');
+  const originalButtonContent = button.innerHTML;
   const eventId = window.crypto?.randomUUID?.() || `lead-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+  const params = new URLSearchParams(window.location.search);
 
-  if (typeof window.fbq === 'function') {
-    window.fbq('track', 'Lead', {}, { eventID: eventId });
-  }
+  button.disabled = true;
+  button.textContent = 'ĐANG GỬI...';
 
   try {
-    await fetch('/api/meta-conversion', {
+    const leadResponse = await fetch('/api/lead', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        parentName: formData.get('parentName'),
+        phone: formData.get('phone'),
+        childAge: formData.get('childAge'),
+        concern: formData.get('concern'),
+        commitment: formData.get('commitment') === 'on',
+        landingPage: window.location.href,
+        utmSource: params.get('utm_source') || '',
+        utmMedium: params.get('utm_medium') || '',
+        utmCampaign: params.get('utm_campaign') || '',
+        target: params.get('target') || params.get('utm_term') || '',
+        camp: params.get('camp') || params.get('utm_id') || '',
+        mkt: params.get('mkt') || '',
+        content: params.get('content') || params.get('utm_content') || '',
+      }),
+    });
+
+    if (!leadResponse.ok) throw new Error('Lead submission failed');
+
+    if (typeof window.fbq === 'function') {
+      window.fbq('track', 'Lead', {}, { eventID: eventId });
+    }
+
+    fetch('/api/meta-conversion', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       keepalive: true,
@@ -57,14 +85,16 @@ document.querySelector('.registration-form')?.addEventListener('submit', async (
         phone: formData.get('phone'),
         eventSourceUrl: window.location.href,
       }),
-    });
-  } catch (error) {
-    console.warn('Không thể gửi sự kiện Conversions API.', error);
-  }
+    }).catch((error) => console.warn('Không thể gửi sự kiện Conversions API.', error));
 
-  const button = event.currentTarget.querySelector('button');
-  button.textContent = 'ĐÃ GỬI THÔNG TIN';
-  button.disabled = true;
+    button.textContent = 'ĐÃ GỬI THÔNG TIN';
+    form.reset();
+  } catch (error) {
+    console.error('Không thể lưu thông tin đăng ký.', error);
+    button.innerHTML = originalButtonContent;
+    button.disabled = false;
+    window.alert('Chưa thể gửi thông tin. Ba mẹ vui lòng thử lại sau ít phút.');
+  }
 });
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
