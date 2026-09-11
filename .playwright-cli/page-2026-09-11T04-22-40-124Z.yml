@@ -1,0 +1,197 @@
+- main [ref=e3]:
+  - region [ref=e4]:
+    - generic [aria-hidden]:
+      - generic: ✦
+      - generic: ✦
+    - generic [ref=e5]:
+      - link "TeenCare" [ref=e6] [cursor=pointer]:
+        - /url: "#top"
+        - img "TeenCare" [ref=e7]
+      - button "ĐĂNG KÝ NGAY" [ref=e8] [cursor=pointer]
+    - paragraph [ref=e9]: HỘI THẢO TRỰC TUYẾN DÀNH CHO PHỤ HUYNH
+    - heading "ĐỒNG HÀNH CÙNG CON TUỔI DẬY THÌ TRONG THỜI ĐẠI AI" [level=1] [ref=e10]:
+      - generic [aria-hidden] [ref=e11]: ĐỒNG HÀNH CÙNG CON
+      - generic [aria-hidden] [ref=e12]: TUỔI DẬY THÌ
+      - generic [aria-hidden] [ref=e13]: TRONG THỜI ĐẠI AI
+    - paragraph [ref=e15]: Đừng chỉ sửa hành vi ba mẹ nhìn thấy. Hãy hiểu đúng điều đang diễn ra bên trong để biết nên nói gì và làm gì tiếp theo.
+    - generic "Thông tin hội thảo" [ref=e16]:
+      - strong [ref=e20]: 20:00 - 21:30
+      - strong [ref=e24]: Google Meet
+    - button "ĐĂNG KÝ THAM GIA" [ref=e25] [cursor=pointer]
+    - figure [ref=e29]:
+      - img "Người mẹ và con gái tuổi teen tươi cười, cùng sử dụng máy tính bảng" [ref=e30]
+  - region [ref=e31]:
+    - heading "BA MẸ CÓ ĐANG...?" [level=2] [ref=e33]
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic "Những vấn đề ba mẹ thường gặp khi đồng hành cùng con" [ref=e37]:
+          - 'article "1 trên 3: CON NGÀY CÀNG ÍT CHIA SẺ?" [ref=e38]':
+            - img "Mẹ muốn trò chuyện nhưng con ngày càng ít chia sẻ" [ref=e39]
+            - generic [ref=e40]:
+              - heading "CON NGÀY CÀNG ÍT CHIA SẺ?" [level=3] [ref=e41]
+              - paragraph [ref=e43]: Con vẫn nói “Con bình thường”, nhưng lại dễ cáu, đóng cửa nhiều hơn và không còn kể những chuyện trước đây từng kể.
+          - 'article "2 trên 3: CÀNG NHẮC, CON CÀNG CHỐNG ĐỐI?" [ref=e44]':
+            - img "Mẹ nhắc nhở con nhưng con phản ứng và chống đối" [ref=e45]
+            - generic [ref=e46]:
+              - heading "CÀNG NHẮC, CON CÀNG CHỐNG ĐỐI?" [level=3] [ref=e47]
+              - paragraph [ref=e49]: Học bài, ngủ đúng giờ hay bớt điện thoại trở thành những cuộc giằng co lặp lại mỗi ngày.
+          - 'article "3 trên 3: KHÔNG BIẾT VẤN ĐỀ THẬT SỰ NẰM Ở ĐÂU?" [ref=e50]':
+            - img "Phụ huynh băn khoăn chưa hiểu vấn đề thật sự của con" [ref=e51]
+            - generic [ref=e52]:
+              - heading "KHÔNG BIẾT VẤN ĐỀ THẬT SỰ NẰM Ở ĐÂU?" [level=3] [ref=e53]
+              - paragraph [ref=e55]: Lười học, mê điện thoại hay thiếu tự giác có thể chỉ là biểu hiện bên ngoài của một vấn đề sâu hơn.
+        - button "Xem vấn đề trước" [ref=e56] [cursor=pointer]
+        - button "Xem vấn đề tiếp theo" [ref=e59] [cursor=pointer]
+      - generic "Chọn vấn đề" [ref=e62]:
+        - button "Xem vấn đề 1" [ref=e63] [cursor=pointer]
+        - button "Xem vấn đề 2" [ref=e64] [cursor=pointer]
+        - button "Xem vấn đề 3" [ref=e65] [cursor=pointer]
+    - complementary [ref=e66]:
+      - paragraph [ref=e70]: Nếu ba mẹ đã thử nhiều cách nhưng vẫn chưa biết cách nào thực sự phù hợp với con, đây là hội thảo dành cho ba mẹ.
+  - region [ref=e71]:
+    - heading "CÓ GÌ ĐẶC BIỆT TRONG HỘI THẢO?" [level=2] [ref=e73]
+    - generic [ref=e75]:
+      - article [ref=e76]:
+        - generic [aria-hidden] [ref=e77]: "01"
+        - generic [ref=e78]:
+          - generic [ref=e79]: THẤU HIỂU
+          - heading "Bí quyết hiểu con tuổi dậy thì" [level=3] [ref=e80]
+      - article [ref=e82]:
+        - generic [aria-hidden] [ref=e83]: "02"
+        - generic [ref=e84]:
+          - generic [ref=e85]: CÔNG NGHỆ AI
+          - heading "Khám phá cách AI xây dựng bản đồ hành vi của con" [level=3] [ref=e86]
+      - article [ref=e88]:
+        - generic [aria-hidden] [ref=e89]: "03"
+        - generic [ref=e90]:
+          - generic [ref=e91]: TƯ VẤN RIÊNG
+          - heading "Chuyên gia tư vấn 1:1 cho vấn đề của gia đình" [level=3] [ref=e92]
+  - region [ref=e94]:
+    - heading "SAU HỘI THẢO, BA MẸ NẮM ĐƯỢC GÌ?" [level=2] [ref=e96]
+    - generic [ref=e98]:
+      - article [ref=e99]:
+        - heading "ĐỌC LÝ TRÍ, CHẠM TRÁI TIM" [level=3] [ref=e103]
+        - paragraph [ref=e104]: Hiểu động lực, nỗi sợ và niềm tin để chọn cách nói con sẵn sàng đón nhận.
+      - article [ref=e105]:
+        - heading "NHÌN CÂY, HIỂU ĐẤT" [level=3] [ref=e109]
+        - paragraph [ref=e110]: Nhìn qua hành vi bề mặt để nhận ra gốc rễ con đang cần bồi đắp.
+      - article [ref=e111]:
+        - heading "TIẾN BỘ NHỎ, THAY ĐỔI LỚN" [level=3] [ref=e115]
+        - paragraph [ref=e116]: Ghi nhận đúng lúc để nuôi động lực và hình thành thói quen bền vững.
+  - region [ref=e117]:
+    - heading "ĐỘI NGŨ CHUYÊN GIA ĐỒNG HÀNH CÙNG BA MẸ" [level=2] [ref=e119]
+    - generic [ref=e121]:
+      - generic [ref=e122]:
+        - generic "Danh sách chuyên gia TeenCare" [ref=e123]:
+          - article "CÔ HOÀNG LINH, NHÀ SÁNG LẬP TEENCARE" [ref=e124]:
+            - generic [ref=e125]:
+              - img "Chân dung Cô Hoàng Linh" [ref=e126]
+              - generic [aria-hidden] [ref=e127]: "01"
+            - generic [ref=e128]:
+              - heading "CÔ HOÀNG LINH" [level=3] [ref=e129]
+              - paragraph [ref=e130]: NHÀ SÁNG LẬP TEENCARE
+              - list [ref=e131]:
+                - listitem [ref=e132]:
+                  - generic [ref=e135]: Nhà sáng lập, Chủ tịch Tổ chức Thúc đẩy Bình đẳng giới Việt Nam VOGE.
+                - listitem [ref=e136]:
+                  - generic [ref=e139]: Chuyên gia nuôi dạy trẻ tại chương trình ‘Chuyện nhà’ – VTV1.
+                - listitem [ref=e140]:
+                  - generic [ref=e143]: Cố vấn, chủ biên giáo trình và tác giả nhiều đầu sách về giáo dục giới tính, tuổi dậy thì và đồng hành cùng con.
+          - article "CÔ GIANG ĐẶNG, HIỆU TRƯỞNG" [ref=e144]:
+            - generic [ref=e145]:
+              - img "Chân dung Cô Giang Đặng" [ref=e146]
+              - generic [aria-hidden] [ref=e147]: "02"
+            - generic [ref=e148]:
+              - heading "CÔ GIANG ĐẶNG" [level=3] [ref=e149]
+              - paragraph [ref=e150]: HIỆU TRƯỞNG
+              - list [ref=e151]:
+                - listitem [ref=e152]:
+                  - generic [ref=e155]: "Chuyên gia cố vấn hàng loạt dự án: FEMALE LEAD - đối tác Bộ Ngoại giao Hoa Kỳ, Nhà Nhiều Cột - đối tác chính phủ Úc..."
+                - listitem [ref=e156]:
+                  - generic [ref=e159]: "Giảng viên GDGT tại các chương trình: Youth Voice 2019, VISEO 2019, WeFree 2016 - 2021, GNI 2021..."
+                - listitem [ref=e160]:
+                  - generic [ref=e163]: Tham vấn viên, Hội nghị Quốc gia về sửa đổi luật BĐG Việt Nam 2022
+                - listitem [ref=e164]:
+                  - generic [ref=e167]: Cựu Giám đốc Nội dung Tổ chức Thúc đẩy Bình đẳng giới Việt Nam
+                - listitem [ref=e168]:
+                  - generic [ref=e171]: Học bổng chính phủ Canada SEED - Á Khoa Khoa Quản trị, Đại học Kinh tế Quốc dân
+                - listitem [ref=e172]:
+                  - generic [ref=e175]: Đại học Royal Road, Canada, chuyên ngành Giáo dục vì mục tiêu phát triển bền vững
+          - article "THẦY TÚ NGUYỄN, MENTOR" [ref=e176]:
+            - generic [ref=e177]:
+              - img "Chân dung Thầy Tú Nguyễn" [ref=e178]
+              - generic [aria-hidden] [ref=e179]: "03"
+            - generic [ref=e180]:
+              - heading "THẦY TÚ NGUYỄN" [level=3] [ref=e181]
+              - paragraph [ref=e182]: MENTOR
+              - list [ref=e183]:
+                - listitem [ref=e184]:
+                  - generic [ref=e187]: Thạc sĩ Giáo dục tại Đại học College London, London, Vương quốc Anh
+                - listitem [ref=e188]:
+                  - generic [ref=e191]: Học giả tại ĐH Brown, Hoa Kỳ
+                - listitem [ref=e192]:
+                  - generic [ref=e195]: Học bổng YSEALI, Bộ Ngoại giao Hoa Kỳ
+                - listitem [ref=e196]:
+                  - generic [ref=e199]: Học bổng chính phủ Anh Chevening
+                - listitem [ref=e200]:
+                  - generic [ref=e203]: Nhà hoạt động về Giới từ năm 2016
+        - button "Xem chuyên gia trước" [ref=e204] [cursor=pointer]
+        - button "Xem chuyên gia tiếp theo" [ref=e207] [cursor=pointer]
+      - generic "Chọn chuyên gia" [ref=e211]:
+        - button "Xem hồ sơ CÔ HOÀNG LINH" [ref=e212]
+        - button "Xem hồ sơ CÔ GIANG ĐẶNG" [ref=e213]
+        - button "Xem hồ sơ THẦY TÚ NGUYỄN" [ref=e214]
+      - paragraph [ref=e215]: Vuốt ngang để xem các chuyên gia
+  - region [ref=e216]:
+    - heading "GIỮ CHỖ THAM GIA HỘI THẢO" [level=2] [ref=e218]
+    - generic [ref=e220]:
+      - generic [ref=e221]:
+        - generic [ref=e222]: Họ và tên phụ huynh *
+        - textbox "Họ và tên phụ huynh *" [ref=e226]:
+          - /placeholder: Nhập họ và tên của ba/mẹ
+      - generic [ref=e227]:
+        - generic [ref=e228]: Số điện thoại *
+        - textbox "Số điện thoại *" [ref=e232]:
+          - /placeholder: Nhập số điện thoại nhận thông tin hội thảo
+      - generic [ref=e233]:
+        - generic [ref=e234]: Email
+        - textbox "Email" [ref=e238]:
+          - /placeholder: Không bắt buộc
+      - generic [ref=e239]:
+        - generic [ref=e240]: Ba mẹ kỳ vọng điều gì khi tham gia hội thảo? *
+        - textbox "Ba mẹ kỳ vọng điều gì khi tham gia hội thảo? *" [ref=e241]:
+          - /placeholder: "Ví dụ: Tôi muốn hiểu vì sao con ngày càng ít chia sẻ và biết cách trò chuyện để con sẵn sàng mở lòng hơn."
+      - button "XÁC NHẬN THAM GIA" [ref=e242] [cursor=pointer]
+      - paragraph [ref=e245]: Bằng việc đăng ký, ba mẹ đồng ý để TeenCare liên hệ và gửi thông tin liên quan đến hội thảo.
+  - generic [ref=e248]:
+    - link "TeenCare - về đầu trang" [ref=e249] [cursor=pointer]:
+      - /url: "#top"
+      - img "TeenCare" [ref=e250]
+    - generic [ref=e252]:
+      - strong [ref=e253]: "Theo dõi chúng tôi:"
+      - link "Theo dõi TeenCare trên Facebook" [ref=e254] [cursor=pointer]:
+        - /url: https://www.facebook.com/teencare.vn
+    - generic [ref=e257]:
+      - region [ref=e258]:
+        - heading "Về chúng tôi" [level=2] [ref=e259]
+        - list [ref=e260]:
+          - listitem [ref=e261]: Hệ sinh thái
+          - listitem [ref=e262]: Hướng dẫn thanh toán
+          - listitem [ref=e263]: Bảng giá
+          - listitem [ref=e264]: Liên hệ
+          - listitem [ref=e265]: Tuyển dụng
+          - listitem [ref=e266]: Điều khoản dịch vụ
+      - region [ref=e267]:
+        - heading "Văn phòng" [level=2] [ref=e268]
+        - generic [ref=e269]:
+          - generic [ref=e270]: TP. Hà Nội (Trụ sở chính)
+          - generic [ref=e271]: Philippines
+          - generic [ref=e272]: Singapore
+    - region [ref=e273]:
+      - heading "Liên hệ" [level=2] [ref=e274]
+      - generic [ref=e275]:
+        - generic [ref=e276]: "Hotline: 1900 099 900"
+        - generic [ref=e277]: "Email: info@teencare.vn"
+    - paragraph [ref=e278]: ©2026 by TeenCare VietNam
+  - button "Đăng ký tham gia hội thảo" [ref=e279] [cursor=pointer]:
+    - generic [ref=e280]: ĐĂNG KÝ NGAY

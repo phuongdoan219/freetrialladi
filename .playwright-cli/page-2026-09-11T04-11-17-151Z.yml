@@ -1,0 +1,190 @@
+- generic [active] [ref=f3e1]:
+  - banner "TeenCare" [ref=f3e2]:
+    - img "TeenCare" [ref=f3e4]
+  - main [ref=f3e5]:
+    - region [ref=f3e6]:
+      - generic [aria-hidden] [ref=f3e9]: ✦
+      - generic [ref=f3e10]:
+        - generic [ref=f3e11]:
+          - paragraph [ref=f3e12]: TƯ VẤN 1:1 TRỰC TUYẾN • MIỄN PHÍ
+          - heading "HIỂU ĐIỀU ĐANG DIỄN RA BÊN TRONG CON CÙNG CHUYÊN GIA TUỔI DẬY THÌ TEENCARE" [level=1] [ref=f3e13]:
+            - text: HIỂU ĐIỀU ĐANG DIỄN RABÊN TRONG CON
+            - generic [ref=f3e14]: CÙNG CHUYÊN GIA TUỔI DẬY THÌ TEENCARE
+          - paragraph [ref=f3e15]: Chuyên gia trực tiếp trò chuyện cùng con và giúp ba mẹ nhận ra hướng đồng hành phù hợp.
+          - paragraph [ref=f3e16]: 30–60 phút • Trực tuyến • Riêng tư
+          - link "ĐĂNG KÝ TƯ VẤN 1:1" [ref=f3e17] [cursor=pointer]:
+            - /url: "#dang-ky"
+            - text: ĐĂNG KÝ TƯ VẤN 1:1
+            - generic [aria-hidden] [ref=f3e18]: →
+          - paragraph [ref=f3e19]: Chuyên gia trực tiếp thực hiện — không qua tư vấn viên.
+        - figure [ref=f3e20]:
+          - img "Mẹ và con tuổi teen cùng trò chuyện qua máy tính bảng" [ref=f3e21]
+    - region [ref=f3e22]:
+      - generic [ref=f3e23]:
+        - heading "BA MẸ MUỐN ĐỒNG HÀNH CÙNG CON, NHƯNG…" [level=2] [ref=f3e24]
+        - generic [ref=f3e25]:
+          - article [ref=f3e26]:
+            - generic [ref=f3e27]: "01"
+            - generic [ref=f3e28]:
+              - heading "KHÔNG BIẾT HỎI AI" [level=3] [ref=f3e29]
+              - paragraph [ref=f3e30]: Con bước vào tuổi dậy thì với nhiều thay đổi. Giữa quá nhiều lời khuyên, ba mẹ khó biết đâu là cách phù hợp với con mình.
+          - article [ref=f3e31]:
+            - generic [ref=f3e32]: "02"
+            - generic [ref=f3e33]:
+              - heading "NGẠI CHI PHÍ VÀ HIỆU QUẢ" [level=3] [ref=f3e34]
+              - paragraph [ref=f3e35]: Một buổi tư vấn riêng thường tốn kém, trong khi ba mẹ chưa biết chuyên gia và phương pháp có thực sự phù hợp với gia đình.
+          - article [ref=f3e36]:
+            - generic [ref=f3e37]: "03"
+            - generic [ref=f3e38]:
+              - heading "KIẾN THỨC CHUNG KHÓ ÁP DỤNG" [level=3] [ref=f3e39]
+              - paragraph [ref=f3e40]: Nội dung trên mạng thường khá chung chung. Ba mẹ vẫn chưa biết nên bắt đầu từ đâu trong hoàn cảnh của gia đình mình.
+        - paragraph [ref=f3e41]: Buổi 1:1 miễn phí giúp ba mẹ trao đổi trực tiếp với chuyên gia trước khi cân nhắc bước tiếp theo.
+    - region [ref=f3e42]:
+      - generic [ref=f3e43]:
+        - paragraph [ref=f3e44]: 01:01
+        - heading "CHUYÊN GIA SẼ LÀM GÌ TRONG BUỔI 1:1?" [level=2] [ref=f3e45]: CHUYÊN GIA SẼ LÀM GÌTRONG BUỔI 1:1?
+        - generic [ref=f3e46]:
+          - article [ref=f3e47]:
+            - generic [ref=f3e48]: "01"
+            - generic [ref=f3e49]:
+              - heading "KẾT NỐI & LẮNG NGHE" [level=3] [ref=f3e50]
+              - paragraph [ref=f3e51]: Tạo không gian an toàn để con chia sẻ suy nghĩ thật.
+          - article [ref=f3e52]:
+            - generic [ref=f3e53]: "02"
+            - generic [ref=f3e54]:
+              - heading "NHẬN DIỆN" [level=3] [ref=f3e55]
+              - paragraph [ref=f3e56]: Quan sát cảm xúc, điểm mạnh và điều đang cản trở con.
+          - article [ref=f3e57]:
+            - generic [ref=f3e58]: "03"
+            - generic [ref=f3e59]:
+              - heading "ĐỊNH HƯỚNG" [level=3] [ref=f3e60]
+              - paragraph [ref=f3e61]: Chọn một ưu tiên và bước hành động phù hợp để bắt đầu.
+        - complementary [ref=f3e62]: Mục tiêu đầu tiên là nhìn đúng vấn đề, không hứa giải quyết mọi thứ trong một buổi.
+    - region [ref=f3e63]:
+      - generic [ref=f3e64]:
+        - heading "GIA ĐÌNH RÕ HƠN ĐIỀU GÌ?" [level=2] [ref=f3e65]: GIA ĐÌNH RÕ HƠNĐIỀU GÌ?
+        - generic [ref=f3e66]:
+          - article [ref=f3e67]:
+            - generic [ref=f3e73]:
+              - heading "HIỂU ĐIỀU SAU HÀNH VI" [level=3] [ref=f3e74]
+              - paragraph [ref=f3e75]: Nhìn vấn đề từ chia sẻ và phản ứng của con, thay vì chỉ suy đoán từ bên ngoài.
+          - article [ref=f3e76]:
+            - generic [ref=f3e81]:
+              - heading "BIẾT NÊN ƯU TIÊN GÌ" [level=3] [ref=f3e82]
+              - paragraph [ref=f3e83]: Xác định điều gia đình cần tập trung trước, thay vì cố thay đổi mọi thứ cùng lúc.
+          - article [ref=f3e84]:
+            - generic [ref=f3e90]:
+              - heading "CÓ BƯỚC KHỞI ĐẦU PHÙ HỢP" [level=3] [ref=f3e91]
+              - paragraph [ref=f3e92]: Một thay đổi nhỏ ba mẹ và con có thể cùng bắt đầu sau buổi tư vấn.
+        - paragraph [ref=f3e93]: “Thay đổi bền vững bắt đầu khi con được hiểu đúng.”
+        - link "NHẬN ĐỊNH HƯỚNG CHO GIA ĐÌNH" [ref=f3e94] [cursor=pointer]:
+          - /url: "#dang-ky"
+          - text: NHẬN ĐỊNH HƯỚNG CHO GIA ĐÌNH
+          - generic [aria-hidden] [ref=f3e95]: →
+    - region [ref=f3e96]:
+      - generic [ref=f3e97]:
+        - heading "BUỔI 1:1 PHÙ HỢP KHI…" [level=2] [ref=f3e98]
+        - generic [ref=f3e99]:
+          - paragraph [ref=f3e100]:
+            - generic [aria-hidden] [ref=f3e101]: ✓
+            - text: Gia đình đang có một vấn đề cụ thể với con tuổi dậy thì.
+          - paragraph [ref=f3e102]:
+            - generic [aria-hidden] [ref=f3e103]: ✓
+            - text: Ba mẹ muốn hiểu nguyên nhân và sẵn sàng điều chỉnh cách đồng hành.
+          - paragraph [ref=f3e104]:
+            - generic [aria-hidden] [ref=f3e105]: ✓
+            - text: Gia đình có thể tham gia nghiêm túc khi lịch được xác nhận.
+        - paragraph [ref=f3e106]: Chuyên gia cần chuẩn bị riêng cho mỗi gia đình. Ba mẹ vui lòng đăng ký khi có nhu cầu thực tế.
+    - region [ref=f3e107]:
+      - generic [ref=f3e108]:
+        - heading "ĐỘI NGŨ CHUYÊN GIA TEENCARE" [level=2] [ref=f3e109]
+        - generic [ref=f3e111]:
+          - article [ref=f3e112]:
+            - img "Cô Hoàng Linh" [ref=f3e113]
+            - generic [ref=f3e114]:
+              - heading "CÔ HOÀNG LINH" [level=3] [ref=f3e115]
+              - paragraph [ref=f3e116]: NHÀ SÁNG LẬP TEENCARE
+              - list [ref=f3e117]:
+                - listitem [ref=f3e118]: Nhà sáng lập, Chủ tịch Tổ chức Thúc đẩy Bình đẳng giới Việt Nam VOGE.
+                - listitem [ref=f3e119]: Chuyên gia nuôi dạy trẻ tại chương trình “Chuyện nhà” – VTV1.
+                - listitem [ref=f3e120]: Cố vấn, chủ biên giáo trình và tác giả nhiều đầu sách về giáo dục giới tính, tuổi dậy thì và đồng hành cùng con.
+          - article [ref=f3e121]:
+            - img "Thầy Tú Nguyễn" [ref=f3e122]
+            - generic [ref=f3e123]:
+              - heading "THẦY TÚ NGUYỄN" [level=3] [ref=f3e124]
+              - paragraph [ref=f3e125]: MENTOR TEENCARE
+              - list [ref=f3e126]:
+                - listitem [ref=f3e127]: Thạc sĩ Giáo dục tại University College London, Vương quốc Anh; học giả tại Đại học Brown, Hoa Kỳ.
+                - listitem [ref=f3e128]: Nhận học bổng Chevening của Chính phủ Anh và học bổng YSEALI của Bộ Ngoại giao Hoa Kỳ.
+                - listitem [ref=f3e129]: Có kinh nghiệm hoạt động chuyên sâu trong lĩnh vực giới từ năm 2016.
+          - article [ref=f3e130]:
+            - img "Cô Giang Đặng" [ref=f3e131]
+            - generic [ref=f3e132]:
+              - heading "CÔ GIANG ĐẶNG" [level=3] [ref=f3e133]
+              - paragraph [ref=f3e134]: HIỆU TRƯỞNG TEENCARE
+              - list [ref=f3e135]:
+                - listitem [ref=f3e136]: Chuyên gia cố vấn các dự án giáo dục và bình đẳng giới hợp tác cùng nhiều tổ chức trong và ngoài nước.
+                - listitem [ref=f3e137]: Giảng viên giáo dục giới tính tại Youth Voice, VISEO, WeFree và GNI.
+                - listitem [ref=f3e138]: Cựu Giám đốc Nội dung VOGE; theo học chuyên ngành Giáo dục vì mục tiêu phát triển bền vững tại Đại học Royal Roads, Canada.
+        - group "Chọn chuyên gia" [ref=f3e139]:
+          - button "Cô Hoàng Linh" [ref=f3e140] [cursor=pointer]
+          - button "Thầy Tú Nguyễn" [ref=f3e141] [cursor=pointer]
+          - button "Cô Giang Đặng" [ref=f3e142] [cursor=pointer]
+    - region [ref=f3e143]:
+      - generic [ref=f3e144]:
+        - generic [ref=f3e145]:
+          - heading "CHIA SẺ VẤN ĐỀ CỦA GIA ĐÌNH" [level=2] [ref=f3e146]: CHIA SẺ VẤN ĐỀCỦA GIA ĐÌNH
+          - paragraph [ref=f3e147]: TeenCare sẽ liên hệ trao đổi ngắn trước khi xác nhận lịch.
+          - generic [ref=f3e148]:
+            - generic [ref=f3e149]: Miễn phí
+            - generic [ref=f3e150]: •
+            - generic [ref=f3e151]: Riêng tư
+            - generic [ref=f3e152]: •
+            - generic [ref=f3e153]: Không bắt buộc đăng ký chương trình
+        - generic [ref=f3e154]:
+          - generic [ref=f3e155]:
+            - text: Họ và tên phụ huynh *
+            - textbox "Họ và tên phụ huynh *" [ref=f3e156]:
+              - /placeholder: Nhập họ và tên
+          - generic [ref=f3e157]:
+            - text: Số điện thoại/Zalo *
+            - textbox "Số điện thoại/Zalo *" [ref=f3e158]:
+              - /placeholder: Nhập số điện thoại
+          - generic [ref=f3e159]:
+            - text: Độ tuổi của con *
+            - spinbutton "Độ tuổi của con *" [ref=f3e160]
+          - generic [ref=f3e161]:
+            - text: Vấn đề ba mẹ quan tâm nhất? *
+            - textbox "Vấn đề ba mẹ quan tâm nhất? *" [ref=f3e162]:
+              - /placeholder: Chia sẻ ngắn về điều ba mẹ đang quan tâm
+          - generic [ref=f3e163]:
+            - checkbox "Tôi có nhu cầu thực tế và sẽ chủ động tham gia nếu được xác nhận lịch." [ref=f3e164]
+            - generic [ref=f3e165]: Tôi có nhu cầu thực tế và sẽ chủ động tham gia nếu được xác nhận lịch.
+          - button "GỬI THÔNG TIN ĐĂNG KÝ" [ref=f3e166] [cursor=pointer]:
+            - text: GỬI THÔNG TIN ĐĂNG KÝ
+            - generic [aria-hidden] [ref=f3e167]: →
+      - generic [ref=f3e168]:
+        - heading "CÂU HỎI THƯỜNG GẶP" [level=3] [ref=f3e169]
+        - generic [ref=f3e170]:
+          - paragraph [ref=f3e171]:
+            - generic [ref=f3e172]: Ai trực tiếp thực hiện buổi 1:1?
+            - generic [aria-hidden] [ref=f3e173]: +
+          - paragraph [ref=f3e174]:
+            - generic [ref=f3e175]: Con có cần tham gia cùng ba mẹ không?
+            - generic [aria-hidden] [ref=f3e176]: +
+          - paragraph [ref=f3e177]:
+            - generic [ref=f3e178]: Đăng ký có chắc chắn được xếp lịch không?
+            - generic [aria-hidden] [ref=f3e179]: +
+  - contentinfo [ref=f3e180]:
+    - generic [ref=f3e181]:
+      - img "TeenCare" [ref=f3e182]
+      - paragraph [ref=f3e183]:
+        - text: TeenCare
+        - generic [ref=f3e184]: —
+        - text: 1900 099 900
+        - generic [ref=f3e185]: —
+        - text: info@teencare.vn
+      - paragraph [ref=f3e186]:
+        - text: Chính sách bảo mật
+        - generic [ref=f3e187]: —
+        - text: Điều khoản dịch vụ
