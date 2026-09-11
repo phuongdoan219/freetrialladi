@@ -5,7 +5,28 @@ const previousButton = document.querySelector('.carousel-prev');
 const nextButton = document.querySelector('.carousel-next');
 const successDialog = document.querySelector('#success-dialog');
 const closeSuccessButton = document.querySelector('[data-close-success]');
+const stickyCta = document.querySelector('#sticky-cta');
+const heroCta = document.querySelector('.hero .primary-cta');
+const registrationSection = document.querySelector('#dang-ky');
 let currentSlide = 0;
+let heroCtaIsVisible = true;
+let registrationIsVisible = false;
+
+function updateStickyCta() {
+  stickyCta?.classList.toggle('is-visible', !heroCtaIsVisible && !registrationIsVisible);
+}
+
+if ('IntersectionObserver' in window && stickyCta && heroCta && registrationSection) {
+  new IntersectionObserver(([entry]) => {
+    heroCtaIsVisible = entry.isIntersecting;
+    updateStickyCta();
+  }, { threshold: 0.1 }).observe(heroCta);
+
+  new IntersectionObserver(([entry]) => {
+    registrationIsVisible = entry.isIntersecting;
+    updateStickyCta();
+  }, { threshold: 0.05 }).observe(registrationSection);
+}
 
 function closeSuccessDialog() {
   successDialog?.close();
